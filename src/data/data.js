@@ -1,6 +1,6 @@
 export const cardOne = {
  title: 'Landing Page for a Food Bank',
- description: 'Made with ReactJs',
+ description: 'Made with ReactJs. Fully responsive design.',
  github: 'https://github.com/peteregbujie/foodbank-landing-page',
 };
 

@@ -12,7 +12,7 @@ export default function Navbar() {
  }, []);
 
  return (
-  <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60'>
+  <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-gray-900 bg-opacity-60'>
    <a href='#skip' className='sr-only focus:not-sr-only'>
     Skip to content
    </a>
@@ -53,7 +53,12 @@ export default function Navbar() {
      <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Home</a>
     </NextLink>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Projects</a>
+     <a
+      className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
+      onClick={() => window.location.replace('/#projects')}
+     >
+      Projects
+     </a>
     </NextLink>
     <NextLink href='/'>
      <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Contact</a>

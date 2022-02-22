@@ -4,18 +4,18 @@ import Navbar from '../components/Navbar';
 
 function Layout({children}) {
   return (
-   <div>
+   <>
     <Head>
      <title>Peteregbujie.com</title>
     </Head>
     <Navbar />
     <main
-      className='flex flex-col justify-center mx-auto relative bg-white dark:bg-black px-8 text-gray-900 dark:text-gray-100'
+      className='flex flex-col justify-center mx-auto relative'
     >
      {children}
     </main>
     <Footer />
-   </div>
+   </>
   );
 }
 

@@ -10,7 +10,7 @@ function Layout({children}) {
     </Head>
     <Navbar />
     <main
-      className='flex flex-col justify-center mx-auto relative'
+      className='flex flex-col justify-center mx-auto'
     >
      {children}
     </main>

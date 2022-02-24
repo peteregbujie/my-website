@@ -12,14 +12,14 @@ export default function Navbar() {
  }, []);
 
  return (
-  <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-gray-900 bg-opacity-60'>
+  <nav className='sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto'>
    <a href='#skip' className='sr-only focus:not-sr-only'>
     Skip to content
    </a>
    <button
     aria-label='Toggle Dark Mode'
     type='button'
-    className='bg-gray-200 dark:bg-gray-800 rounded p-3 h-10 w-10'
+    className='rounded p-3 h-10 w-10'
     onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
    >
     {mounted && (
@@ -28,7 +28,7 @@ export default function Navbar() {
       viewBox='0 0 24 24'
       fill='currentColor'
       stroke='currentColor'
-      className='h-4 w-4 text-gray-800 dark:text-gray-200'
+      className='h-4 w-4 text-gray-800 dark:text-white'
      >
       {theme === 'dark' ? (
        <path
@@ -50,18 +50,18 @@ export default function Navbar() {
    </button>
    <div>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Home</a>
+     <a className='p-1 sm:p-4 text-gray-900'>Home</a>
     </NextLink>
     <NextLink href='/'>
      <a
-      className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'
+      className='p-1 sm:p-4 text-gray-900'
       onClick={() => window.location.replace('/#projects')}
      >
       Projects
      </a>
     </NextLink>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900 dark:text-gray-100'>Contact</a>
+     <a className='p-1 sm:p-4 text-gray-900'>Contact</a>
     </NextLink>
    </div>
   </nav>

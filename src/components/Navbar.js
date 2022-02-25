@@ -50,18 +50,18 @@ export default function Navbar() {
    </button>
    <div>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900'>Home</a>
+     <a className='p-1 sm:p-4 text-gray-900 dark:text-white'>Home</a>
     </NextLink>
     <NextLink href='/'>
      <a
-      className='p-1 sm:p-4 text-gray-900'
+      className='p-1 sm:p-4 text-gray-900 dark:text-white'
       onClick={() => window.location.replace('/#projects')}
      >
       Projects
      </a>
     </NextLink>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900'>Contact</a>
+     <a className='p-1 sm:p-4 text-gray-900 dark:text-white'>Contact</a>
     </NextLink>
    </div>
   </nav>

@@ -2,9 +2,9 @@ import React from 'react';
 
 function RepoCard({title,description,github,live}) {
     return (
-     <div className='m-2 flex flex-col justify-center items-center'>
-      <div className='p-4 md:min-w-[659px] lg:w-1/2 lg:ml-20 md:w-full  rounded-md border-2 border-[#180202f8] text-left  hover:shadow-[12px_12px_2px_1px_rgba(0,0,0,0.5)]'>
-       <h2 className='text-gray-800 text-2xl title-font font-medium mb-2'>
+     <div className='m-4 flex flex-col justify-center items-center'>
+      <div className='p-4 md:min-w-[659px] lg:w-1/2 lg:ml-20 md:w-full  rounded-md border-2 border-gray-800 dark:border-gray-200 text-left  hover:shadow-[12px_12px_2px_1px_rgba(0,0,0,0.5)] dark:hover:shadow-[12px_12px_2px_1px_rgba(255,255,255)]'>
+       <h2 className='text-gray-800 text-2xl title-font font-medium mb-2 dark:text-gray-200'>
         {title}
        </h2>
        <p className='leading-relaxed text-base tracking-wide'>{description}</p>

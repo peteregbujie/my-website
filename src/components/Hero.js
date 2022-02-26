@@ -19,18 +19,14 @@ function Hero() {
       </p>
       <div className='flex justify-center'>
        <a href='https://www.linkedin.com/in/peter-egbujie/'>
-        <button className='inline-flex text-white bg-gray-800 border-black border-2 py-2 px-6 focus:outline-none hover:bg-white hover:text-gray-800 hover:border-black hover:border-2 rounded text-lg'>
-         View on LinkedIn
-        </button>
+        <button className='btn-1'>View on LinkedIn</button>
        </a>
-       <a href='https://github.com/peteregbujie'>
-        <button className='ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-         View Github
-        </button>
+       <a href='https://github.com/peteregbujie' className='ml-8'>
+        <button className='btn-2'>View Github</button>
        </a>
       </div>
      </div>
-     <div className='invisible lg:visible max-w-[300px] mr-12'>
+     <div className='hidden lg:block max-w-[300px] mr-12'>
       <Image
        className='object-cover rounded-full'
        alt='photo'

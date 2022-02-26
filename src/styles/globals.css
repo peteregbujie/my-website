@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-1 {
+ @apply inline-flex text-white bg-black  py-2 px-6 focus:outline-none border-black border-2 hover:border-black hover:border-2 hover:bg-white hover:text-gray-800  rounded text-lg;
+}
+
+.btn-2 {
+ @apply inline-flex py-2 px-6 focus:outline-none text-gray-800 border-black border-2 bg-white hover:bg-black hover:text-white rounded text-lg;
+}

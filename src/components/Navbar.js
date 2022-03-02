@@ -61,7 +61,12 @@ export default function Navbar() {
      </a>
     </NextLink>
     <NextLink href='/'>
-     <a className='p-1 sm:p-4 text-gray-900 dark:text-white'>Contact</a>
+     <a
+      className='p-1 sm:p-4 text-gray-900 dark:text-white'
+      onClick={() => window.location.replace('/#contact')}
+     >
+      Contact
+     </a>
     </NextLink>
    </div>
   </nav>

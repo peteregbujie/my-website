@@ -6,11 +6,11 @@ function Hero() {
    <section className='text-gray-600'>
     <div className='container mx-auto flex flex-col justify-center items-center px-5 py-24 lg:flex-row  lg:mx-12'>
      <div className='flex-1 lg:w-1/2  md:w-full lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-4'>
-      <h1 className='text-4xl lg:text-6xl mb-4 font-bold text-gray-900 dark:text-white'>
+      <h1 className='text-4xl lg:text-6xl mb-6 font-bold text-gray-900 dark:text-white'>
        Hi, i&apos;m Peter Egbujie
        <br />
       </h1>
-      <span className='text-4xl mb-4 font-medium dark:text-white'>
+      <span className='text-3xl lg:text-4xl mb-6 font-medium text-blue-500 dark:text-white'>
        Frontend Developer
       </span>
       <p className='mb-8 dark:text-gray-100 text-2xl text-justify leading-10 max-w-prose'>
@@ -18,7 +18,7 @@ function Hero() {
        JavaScript, building products, becoming a better developer and growing a
        career in tech.
       </p>
-      <div className='flex justify-center dark:text-white'>
+      <div className='flex justify-center dark:text-white' id='contact'>
        <abbr
         title='GitHub'
         className='pr-5 text-4xl font-bold hover:text-gray-900 no-underline'

@@ -8,15 +8,15 @@ export default function Home() {
    <Hero />
    <h3
     id="projects"
-    className="text-[2.5rem] font-bold md:ext-4xl mb-12 text-center after:bg-gray-900 after:inline-block after:h-[2px] after:relative after:align-middle after:w-3/4"
+    className="text-[2.5rem] font-bold md:ext-4xl mb-6 text-center text-blue-500 dark:text-white after:bg-gray-900 after:inline-block after:h-[2px] after:relative after:align-middle after:w-3/4"
    >
     Projects
    </h3>
    <ul>
     {cards.map((card) => (
-     <li key={card.title}>
+     <li key={card.title} className="flex justify-center">
       {
-       <article className="flex items-center p-6 mx-6 mb-6 sm:p-8 card lg:w-1/2 lg:ml-20">
+       <article className="container flex items-center p-6 mx-6 mb-6 sm:p-8 card lg:w-1/2 lg:ml-20">
         <div className="flex items-start">
          <div className="sm:ml-8">
           <h2 className="mb-2 text-2xl font-medium text-gray-800 title-font dark:text-gray-200">

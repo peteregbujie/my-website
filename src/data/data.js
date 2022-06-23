@@ -7,16 +7,16 @@ export const cards = [
   live: "http://nextjs-react-query-ecommerce.vercel.app/",
  },
  {
-  title: "Landing Page for a Food Bank",
-  description: "Made with ReactJs. Fully responsive design.",
-  github: "https://github.com/peteregbujie/foodbank-landing-page",
-  live: "",
- },
- {
   title: "Recipe Finder",
   description:
    "Recipe app built with NextJS. Fetch meals from the themealDB API using axios + useSWR for data fetching. Checkout the live demo with the link below.",
   github: "https://github.com/peteregbujie/nextjs-recipe-app",
   live: "http://nextjs-recipe-app-phi.vercel.app/",
+ },
+ {
+  title: "My Website",
+  description: "Made with NextJS and TailWindCSS.",
+  github: "https://github.com/peteregbujie/my-website",
+  live: "",
  },
 ];
